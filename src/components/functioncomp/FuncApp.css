@@ -1,0 +1,103 @@
+/* .main_div{
+    width:100%;
+    height:900px;
+}
+.child1{
+    display:flex;
+    width:100%;
+    height:225px;
+}
+.para1{
+    height:225px;
+    width:75%;
+    padding:35px;
+    font-size:20px;
+}
+.para2{
+    border:2px solid black;
+    height:225px;
+    width:25%;
+    background-image: url("/IMAGES/JS.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 250px;
+    cursor: pointer;
+}
+.para3{
+    height:225px;
+    width:75%;
+    padding:35px;
+    font-size:20px;
+}
+.para4{
+    border:2px solid black;
+    height:225px;
+    width:25%;
+    background-image: url("/IMAGES/REACT.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 225px;
+    cursor: pointer;
+}
+.pic1{
+    border:2px solid black;
+    height:225px;
+    width:25%;
+    background-image: url("/IMAGES/Angular\ js.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 225px;
+    cursor: pointer;
+}
+.pic2{
+    height:225px;
+    width:75%;
+    padding:35px;
+    font-size:20px;
+}
+.pic3{
+    border:2px solid black;
+    height:225px;
+    width:25%;
+    background-image: url("/IMAGES/Tailwind.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 225px;
+    cursor: pointer;
+}
+.pic4{
+    height:225px;
+    width:75%;
+    padding:35px;
+    font-size:20px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+.item1{
+    font-size: 27px;
+    margin-left: 730px;
+}
+.item2{
+    font-size: 27px;
+    margin-left: 715px;
+}
+.par1{
+    font-size: 20px;
+    margin:20px;
+}
+.par2{
+    font-size: 20px;
+    margin:20px;
+}
+
+

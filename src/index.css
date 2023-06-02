@@ -13,7 +13,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-span{
+/* span{
   color:black;
   text-shadow: 4px 4px 5px black;
   font-size:40px;
@@ -78,7 +78,7 @@ marquee{
   height:200px;
   margin-left:645px;
   border-radius: 20px;
-  background-image: url("../react.js-img.png");
+  background-image: url("/IMAGES/react.js-img.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 380px 200px;
@@ -100,3 +100,4 @@ button:hover{
   height:55px;
   transition: 200ms;
 }
+ */
