@@ -23,11 +23,15 @@ class ClassProps extends Component {
 
 export default ClassProps; */
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-import React,{Component} from "react";
+/* import React,{Component} from "react";
 
 class ClassProps extends Component{ 
+  constructor(){
+    super();
+  }
       render(){
           return(
             <div>
@@ -37,6 +41,25 @@ class ClassProps extends Component{
             </div>
           )
       }
+}
+
+export default ClassProps; */
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+import React, { Component } from "react";
+import FailCondition from "../classConditions/FailCondition";
+import SuccessCondition from "../classConditions/SuccessConition";
+
+
+ class ClassProps extends Component {
+  render() {
+    return (
+      <div>
+          {this.props.Boolean?<SuccessCondition/>:<FailCondition/>}
+      </div>
+    )
+  }
 }
 
 export default ClassProps;
