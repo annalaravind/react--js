@@ -24,7 +24,7 @@ class ClassProps extends Component {
 export default ClassProps; */
 
 
-
+/* 
 import React,{Component} from "react";
 
 class ClassProps extends Component{ 
@@ -39,4 +39,4 @@ class ClassProps extends Component{
       }
 }
 
-export default ClassProps;
+export default ClassProps; */

@@ -1,4 +1,4 @@
-import React,{Component} from "react";
+/* import React,{Component} from "react";
 import ClassProps from "./Props/ClassProps";
 
 class ClassApp6 extends Component{
@@ -11,4 +11,4 @@ class ClassApp6 extends Component{
     }
 }
 
-export default ClassApp6;
+export default ClassApp6; */

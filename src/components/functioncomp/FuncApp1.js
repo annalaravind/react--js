@@ -11,7 +11,7 @@ export default FuncApp1; */
 ///////////////////////////////////////////////////////////////////////////////////////
 
 
-import React from "react";
+/* import React from "react";
 import "./FuncApp.css";
 
 let FuncApp1=()=>{
@@ -23,4 +23,4 @@ let FuncApp1=()=>{
     )
 }
 
-export default FuncApp1;
+export default FuncApp1; */

@@ -10,7 +10,7 @@ export default ClassApp5; */
 
 ////////////////////////////////////////////////////////////////////////////////////////
 
-import React, { Component } from "react";
+/* import React, { Component } from "react";
 import ClassProps from "./Props/ClassProps";
 
 
@@ -25,4 +25,4 @@ class ClassApp5 extends Component{
     }
 }
 
-export default ClassApp5;
+export default ClassApp5; */

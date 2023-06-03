@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import FuncApp3 from "./FuncApp3";
 
 function FuncApp2(){
@@ -10,4 +10,4 @@ function FuncApp2(){
     )
 }
 
-export default FuncApp2;
+export default FuncApp2; */

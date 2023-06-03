@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import FuncProps from "./Props/FuncProps";
 
 function FuncApp7(){
@@ -11,3 +11,4 @@ function FuncApp7(){
 
 export default FuncApp7;
 
+ */

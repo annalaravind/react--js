@@ -13,7 +13,7 @@ export default ClassApp1; */
 //////////////////////////////////////////////////////////////////////////////////////
 
 
-import React, { Component } from "react";
+/* import React, { Component } from "react";
 import "./ClassApp.css";                     // I have imported from ClassApp.css
 
 class ClassApp1 extends Component{
@@ -22,4 +22,4 @@ class ClassApp1 extends Component{
     }
 }
 
-export default ClassApp1;
+export default ClassApp1; */

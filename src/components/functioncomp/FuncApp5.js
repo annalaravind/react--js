@@ -9,7 +9,7 @@ export default FuncApp5; */
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 
-import React from "react";
+/* import React from "react";
 import FuncProps from "./Props/FuncProps";
 
 const FuncApp5=()=>{
@@ -21,4 +21,4 @@ const FuncApp5=()=>{
     )
 }
 
-export default FuncApp5;
+export default FuncApp5; */

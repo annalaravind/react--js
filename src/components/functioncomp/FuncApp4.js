@@ -1,4 +1,4 @@
-
+/* 
 import React from "react";
 
 
@@ -15,4 +15,4 @@ function FuncApp4(){
     );
 }
 
-export default FuncApp4;
+export default FuncApp4; */
