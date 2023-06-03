@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+/* import React, { Component } from "react";
 
 class ClassProps extends Component {
   constructor() {
@@ -19,6 +19,24 @@ class ClassProps extends Component {
       </div>
     );
   }
+}
+
+export default ClassProps; */
+
+
+
+import React,{Component} from "react";
+
+class ClassProps extends Component{ 
+      render(){
+          return(
+            <div>
+                <h1>My name is : {this.props.name}</h1>
+                <h1>My age is : {this.props.age}</h1>
+                <h1>I'm from : {this.props.place}</h1>
+            </div>
+          )
+      }
 }
 
 export default ClassProps;

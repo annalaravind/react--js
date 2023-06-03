@@ -8,6 +8,8 @@ class ClassApp5 extends Component{
 
 export default ClassApp5; */
 
+////////////////////////////////////////////////////////////////////////////////////////
+
 import React, { Component } from "react";
 import ClassProps from "./Props/ClassProps";
 

@@ -6,9 +6,9 @@ const FuncProps=(props)=>{
 
 export default FuncProps;  */
 
+///////////////////////////////////////////////////////////////////////////////////////
 
-
-import React from "react";
+/* import React from "react";
 
 const FuncProps=(props)=>{
     console.log(props.name);
@@ -20,4 +20,43 @@ const FuncProps=(props)=>{
 }
 
 
-export default FuncProps;
+export default FuncProps; */
+
+///////////////////////////////////////////////////////////////////////////////////////////
+
+/* import React from "react";
+
+function FuncProps(prop){
+    return(
+        <div>
+            <h1>My name is : {prop.name}</h1>
+            <h1>My age is : {prop.age}</h1>
+            <h1>I'm from : {prop.place}</h1>
+        </div>
+    )
+}
+
+export default FuncProps; */
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/* import React from "react";
+
+function FuncProps(props){
+    return(
+        <div>
+            <h1>Name &emsp;: {props.Name}</h1>
+            <h1>Email &emsp; : {props.email}</h1>
+            <h1>Register : {props.register}</h1>
+        </div>
+    )
+}
+
+export default FuncProps; */
+
+
+
+
+
+
+

@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import "./FuncApp.css";
 
 
@@ -38,4 +38,7 @@ function FuncApp6() {
 }
 
 
-export default FuncApp6;
+export default FuncApp6; */
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////

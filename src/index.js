@@ -18,7 +18,10 @@ import FuncApp4 from "./components/functioncomp/FuncApp4"; */
 /* import FuncApp5 from "./components/functioncomp/FuncApp5"; */
 /* import ClassApp5 from "./components/classcomp/ClassApp5"; */
 /* import FuncStyle from "./components/functioncomp/FuncStyle"; */
-import FuncApp6 from "./components/functioncomp/FuncApp6";
+/* import FuncApp6 from "./components/functioncomp/FuncApp6"; */
+/* import FuncApp7 from './components/functioncomp/FuncApp7'; */
+import ClassApp6 from './components/classcomp/ClassApp6';
+/* import FuncApp8 from './components/functioncomp/FuncApp8'; */
 
 
 
@@ -39,7 +42,10 @@ root.render(
     {/* <FuncApp5/> */}
     {/* <ClassApp5/> */}
     {/* <FuncStyle/> */}
-    <FuncApp6/>
+    {/* <FuncApp6/> */}
+    {/* <FuncApp7/> */}
+    <ClassApp6/>
+    {/* <FuncApp8/> */}
   </div>
 );
 

@@ -8,6 +8,9 @@ function FuncApp1(){
 export default FuncApp1; */
 
 
+///////////////////////////////////////////////////////////////////////////////////////
+
+
 import React from "react";
 import "./FuncApp.css";
 
