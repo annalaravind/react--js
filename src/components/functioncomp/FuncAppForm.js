@@ -1,20 +1,28 @@
 // import {Form,Button} from "react-bootstrap";
 import React, { useState } from 'react';
 import './FuncApp.css';
+import { FaArrowRight } from "react-icons/fa";
 
 const FuncAppForm = () => {
+  const languages=['Telugu','Tamil','Hindi','kannada','Malayalam'];
   const [fullName, setFullName] = useState('');
   const [dateOfBirth, setDateOfBirth] = useState('');
   const [age, setAge] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [mobileNumber, setMobileNumber] = useState('');
+  const [language, setLanguage]=useState('Telugu');
+  const [checkbox,setCheckbox]=useState(false);
+  const [radio,setRadio]=useState(false);
+
 
   const onSubmitChange = (event) => {
     event.preventDefault();
-    !email && !mobileNumber 
-    ? alert("please fill the form correctly")
-    : alert(email);
+    if(fullName && dateOfBirth && age && email && password && mobileNumber && language && checkbox){
+      alert("Thanks for submitting");
+    }else{
+      alert("I don't want to say thanks to you Please fill all");
+    }
   };
 
   return (
@@ -29,6 +37,7 @@ const FuncAppForm = () => {
             name='fullName'
             id='fullName'
             placeholder='Enter your fullname'
+            required
             value={fullName}
             onChange={(event) => setFullName(event.target.value)}
           />
@@ -41,6 +50,7 @@ const FuncAppForm = () => {
               type='date'
               name='dateOfBirth'
               id='dateOfBirth'
+              required
               value={dateOfBirth}
               onChange={(event) => setDateOfBirth(event.target.value)}
             />
@@ -52,6 +62,7 @@ const FuncAppForm = () => {
               name='age'
               id='age'
               placeholder='Age'
+              required
               value={age}
               onChange={(event) => setAge(event.target.value)}
             />
@@ -65,6 +76,7 @@ const FuncAppForm = () => {
             name='email'
             id='email'
             placeholder='Enter your e-mail'
+            required
             value={email}
             onChange={(event) => setEmail(event.target.value)}
           />
@@ -77,11 +89,39 @@ const FuncAppForm = () => {
             name='password'
             id='password'
             placeholder='Enter your password'
+            required
             value={password}
             onChange={(event) => setPassword(event.target.value)}
           />
         </div>
         <br />
+        <div className='radio'>
+          Gender:
+          <div>
+            <input type="radio" 
+            name="radio" 
+            id="radio"
+            value="Male"
+            checked={radio}
+            onChange={(event)=>setRadio(event.target.checked)}/>M
+          </div>
+          <div>
+            <input type="radio" 
+            name="radio" 
+            id="radio"
+            value="Male"
+            checked={radio}
+            onChange={(event)=>setRadio(event.target.checked)}/>F
+          </div>
+          <div>
+            <input type="radio" 
+            name="radio" 
+            id="radio"
+            value="Male"
+            checked={radio}
+            onChange={(event)=>setRadio(event.target.checked)}/>others
+          </div>
+        </div><br/>
         <div className='tel'>
           <input
             title='Type Mobile Number'
@@ -89,12 +129,32 @@ const FuncAppForm = () => {
             name='mobileNumber'
             id='mobileNumber'
             placeholder='Enter your mobile number'
+            required
             value={mobileNumber}
             onChange={(event) => setMobileNumber(event.target.value)}
           />
         </div>
         <br />
-        <br />
+        <div className='dropdown'>
+          <div>Mother Tongue <FaArrowRight/></div>
+          <div>
+            <select value={language} onChange={(event)=>setLanguage(event.target.value)}>
+              {languages.map((option,index)=>{
+                return(
+                  <option>{option}</option>
+                )
+              }
+              )}  
+          </select>
+          </div>
+        </div><br/>
+        <div>
+          <input type='checkbox' 
+            name='checkbox' 
+            id='checkbox' 
+            checked={checkbox} 
+            onChange={(event)=>setCheckbox(event.target.checked)}/> Remember me
+        </div><br/>
         <div className='button'>
           <button type='submit'>Submit</button>
         </div>

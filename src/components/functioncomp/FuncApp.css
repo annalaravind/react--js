@@ -233,6 +233,16 @@ h1{
 .button{
     text-align: center;
 }
+.radio{
+    display: flex;
+    justify-content: space-around;
+}
+.dropdown{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
 
 
 
